@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+body{
+    background-color: #cce3de;
+}
+
+.heading{
+    height: 3vh;
+    width: 100vw;
+    color: black;
+    padding-top: 15px;
+    font-weight:bolder;
+    font-size: 30px;
+    font-family: serif;
+
+
+}
+#new-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+  }
+  
+  #msg {
+    color: black;
+    font-size: 5vmin;
+  }
+  
+  .msg-container {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+  }
+  
+  .hide {
+    display: none;
+  }
+.container{
+    height: 80vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+.boxes{
+    height:70vmin;
+    width: 65vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    flex-wrap: wrap;
+    gap: 1.5vmin;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    font-size: 12vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgb(0,0, 0,0.6);
+    background-color: #ffffc7;
+    color: black;
+    
+}
+.reset{
+    height:10vh;
+    
+}
+.reset button{
+    height:7vmin;
+    width: 13vw;
+    background-color: black;
+    border-radius: 1rem;
+    color: white;
+    font-size: 3vmin;
+    border: none;
+    
+
+}
